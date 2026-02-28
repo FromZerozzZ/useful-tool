@@ -1,3 +1,17 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+系统信息获取工具
+
+该模块提供了一系列函数，用于获取计算机系统的各种硬件和软件信息。
+功能包括：
+- 获取操作系统版本信息
+- 获取CPU型号信息
+- 获取NVIDIA显卡及显存信息
+- 获取内存使用情况和占用内存最多的进程信息
+- 特别关注Chrome浏览器的内存使用情况
+"""
+
 import platform
 import psutil
 import subprocess
